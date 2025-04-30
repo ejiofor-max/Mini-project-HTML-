@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile</title>
+</head>
+<body>
+
+  <header>
+    <h1>My Profile</h1>
+    <nav>
+      <ul>
+        <li>About Me</li>
+        <li>Hobbies</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! My name is [Your Name]. I am passionate about learning web development and improving my coding skills.</p>
+    <img src="https://via.placeholder.com/150" alt="Placeholder image of myself">
+  </section>
+
+  <section>
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Reading tech blogs</li>
+      <li>Practicing Taekwondo</li>
+      <li>Exploring new programming tools</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Contact me at: yourname@example.com</p>
+    <p>Follow me on Twitter: @yourhandle</p>
+  </footer>
+
+</body>
+</html>

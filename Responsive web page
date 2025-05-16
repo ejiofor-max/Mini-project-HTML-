@@ -1,0 +1,122 @@
+b""<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage for 3mtt mini project</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, p {
+            margin: 0.5em 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }/* Hero Section */
+    .hero {
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+        padding: 4em 2em;
+    }
+    .hero h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+    }
+    .cta-button {
+        margin-top: 1em;
+        padding: 0.75em 2em;
+        background-color: #0056b3;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Features Section */
+    .features {
+        display: flex;
+        gap: 2em;
+        padding: 4em 2em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .feature {
+        flex: 1 1 300px;
+        background-color: white;
+        padding: 2em;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .feature img {
+        width: 50px;
+        margin-bottom: 1em;
+    }
+
+    /* Footer Section */
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 2em;
+    }
+    footer p {
+        margin: 0.5em 0;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .features {
+            flex-direction: column;
+        }
+    }
+</style>
+
+</head>
+<body><!-- Hero Section -->
+<section class="hero">
+    <h1>Welcome to Our Product</h1>
+    <p>Discover the features that make our product stand out.</p>
+    <button class="cta-button">Sign Up Now</button>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+    <div class="feature">
+        <img src="chicent wedding banner_021829.jpg" alt="Feature 1">
+        <h2>Feature One</h2>
+        <p>Learn how this feature can enhance your experience.</p>
+    </div>
+    <div class="feature">
+        <img src="chicent traditonaal banner_022255.jpg" alt="Feature 2">
+        <h2>Feature Two</h2>
+        <p>Explore the benefits of using this powerful tool.</p>
+    </div>
+    <div class="feature">
+        <img src="wedding programme outside 2 _115020.jpg" alt="Feature 3">
+        <h2>Feature Three</h2>
+        <p>Understand why this feature is perfect for you.</p>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>Contact us at: <a href="mailto:Princesuccesskeys@gmail.com">Princesuccesskeys@gmail.com</a> | Phone: +2348142508543 or +2349021720034</p>
+    <p>Follow us on <a href="#">Social Media</a></p>
+    <p>&copy; 2025 Your Company. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+""
